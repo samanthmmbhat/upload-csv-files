@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 var mongoose = require('mongoose');
-mongoose.connect("mongodb://localhost:27017/test1");
+mongoose.connect("mongodb://localhost:27017/xlx");
 
 var userRoute = require('./route/userRoute')
 app.use('/',userRoute);
